@@ -1,9 +1,5 @@
 
 public class ProjectEuler {
-	private static double sqrt(double a) {
-		return Math.sqrt(a);
-	}
-	
 	public static void countLetters() {
 		/* Storing the number of letters */
 		int [] ones = {0, 3, 3, 5, 4, 4, 3, 5, 5, 4};	// one, two, ..., nine
@@ -59,32 +55,9 @@ public class ProjectEuler {
 		System.out.println("Sum : " + sum);
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	private static double sqrt(double a) {
+		return Math.sqrt(a);	// replace this with the function implemented before
+	}
 	
 	private static boolean isPentagonal(int n) {
 		double index = (sqrt(24 * n + 1) + 1) / 6;
@@ -116,8 +89,7 @@ public class ProjectEuler {
 	}
 	
 	public static void main(String[] args) {
-		// countLetters();
+		countLetters();
 		pentagonalDiff();
 	}
-
 }
